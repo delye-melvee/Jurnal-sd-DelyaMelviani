@@ -1,4 +1,3 @@
 Nama: Delya Melviani
 
-Kegiatan: Belajar Git Merge
-
+Kegiatan: Belajar Git Branch dan Merge
