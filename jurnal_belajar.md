@@ -1,2 +1,4 @@
-Ini adalah jurnal belajar saya
+Nama: Delya Melviani
+
+Kegiatan: Belajar Git Merge
 
