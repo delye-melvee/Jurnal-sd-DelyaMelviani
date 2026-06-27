@@ -6,8 +6,13 @@ def fetch_data_from_api(api_function):
 
         if response["status"] == "success":
             return response["data"]
+
+        elif response["status"] == "error":
+            print(f"[Error] {response['message']}")
+            return None
+
         else:
-            raise Exception("API Return Error")
+            raise Exception("Format response tidak dikenali")
 
     except Exception as e:
         print(f"[Error] Gagal Integrasi: {e}")
